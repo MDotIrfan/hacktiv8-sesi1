@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Judul Page</title>
+		<style type="text/css">
+			h2 {
+				color: red; 
+				font-size: 30px;
+				text-decoration: underline;
+			}
+			h3 {
+				border-width: 2px;
+				border-style: dotted;
+				border-color: blue;
+			}
+		</style>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Navbar</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+		<h1 style="color: green;font-size: 60px;
+		font-style: italic;">
+		Ini h1
+		</h1><!-- //patokan google dalam mecari web dalam search engine -->
+		<div class="menu"><!-- div bersifat block -->
+			<div>menu 1</div>
+			<div>menu 2</div>
+			<div>menu 3</div>
+		</div>
+		<span><!-- span tidak bersifat block -->
+			<span>menu 1</span>
+			<span>menu 2</span>
+			<span>menu 3</span>
+		</span>
+		<div class="card" style="width: 18rem;">
+  		<img src="gambar.jpg" class="card-img-top" alt="...">
+  		<div class="card-body">
+    <p class="card-text">ini adalah foto singa.</p>
+  </div>
+</div>
+		<a href="http://google.com" target="_blank">Ini merupakan contoh link</a><!-- _blank digunakan untuk otomatis membuka tab baru -->
+		<h2 class="extra">coba form</h2><!-- class boleh ada lebih dari 1 di satu halaman -->
+		<h2 id="less">membuat form</h2><!-- id hanya boleh ada 1 di satu halaman -->
+		<form>
+			Username : <input type="text" name="username"><br>
+			Password : <input type="password" name="password"><br>
+			Umur : <input type="number" name="umur"><br>
+			Email : <input type="Email" name="email"><br>
+			warna : <input type="color" name="warna"><br>
+			Tanggal : <input type="date" name="tanggal"><br>
+			jenis kelamin : 
+			<input type="radio" name="jenis_kelamin"> Laki-laki
+			<input type="radio" name="jenis_kelamin"> Peremuan <br>
+			<button type="button" class="btn btn-primary">Daftar!</button>
+			<button type="button" class="btn btn-danger">Batal</button>
+		</form>
+	</body>
+</html>

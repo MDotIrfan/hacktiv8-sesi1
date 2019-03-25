@@ -1,0 +1,28 @@
+body {
+	background-color: lightblue;
+}
+h4 {
+	text-align: right;
+}
+.extra {
+	color: orange; 	
+	font-size: 34px;
+}
+#less {
+	color: grey;
+	font-size: 16px;
+}
+.menu {
+	border-width : 1px;
+	border-style: solid;
+	border-color: pink;
+	padding: 15px;
+	margin-bottom : 15px;
+	position: fixed;
+	right: 0;
+}
+/*hirarki css :
+important
+atas ke bawah
+inline
+external*/
